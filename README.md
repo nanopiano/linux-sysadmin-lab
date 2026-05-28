@@ -1,6 +1,6 @@
 # Systems Administration Labs
 
-Rocky Linux and Windows Server 2022 lab environment built in RIT Dubai's RLES private cloud platform. Covers Active Directory, DNS, DHCP, RAID storage, file sharing services, and shell automation.
+Rocky Linux and Windows Server 2022 lab environment built in private cloud platform. Covers Active Directory, DNS, DHCP, RAID storage, file sharing services, and shell automation.
 
 ---
 
