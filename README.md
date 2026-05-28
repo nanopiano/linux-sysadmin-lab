@@ -6,6 +6,9 @@ Rocky Linux and Windows Server 2022 lab environment built in private cloud platf
 
 ## Environment Overview
 
+<img width="893" height="575" alt="image" src="https://github.com/user-attachments/assets/db8f745e-0d7d-4df3-b3be-b56c0f591fd2" />
+
+
 | Device | OS | Role |
 |---|---|---|
 | pfSense | pfSense 2.4.5 | NAT router and gateway |
@@ -64,6 +67,9 @@ linux-sysadmin/
 ```
 
 ---
+
+<img width="707" height="628" alt="image" src="https://github.com/user-attachments/assets/fe2b12e3-4874-45d6-8ba9-fd56a842ecb3" />
+
 
 ## How to Use the Scripts
 
