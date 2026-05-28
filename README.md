@@ -1,4 +1,4 @@
-# NSSA 221 Systems Administration Lab
+# Systems Administration Labs
 
 Rocky Linux and Windows Server 2022 lab environment built in RIT Dubai's RLES private cloud platform. Covers Active Directory, DNS, DHCP, RAID storage, file sharing services, and shell automation.
 
@@ -47,7 +47,7 @@ Network: `192.168.1.0/24` under domain `nma2881.com`
 ## Repo Structure
 
 ```
-nssa221-sitelab/
+linux-sysadmin/
 ├── scripts/
 │   ├── databackup.sh         # Versioned backup with rsync
 │   ├── diskMonitor.sh        # Disk usage logger
