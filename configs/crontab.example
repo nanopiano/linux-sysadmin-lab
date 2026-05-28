@@ -1,0 +1,12 @@
+# crontab.example
+# Scheduled automation tasks for nma2881.storage
+# To apply: run `crontab -e` and paste these lines
+
+# Run data backup every 1 minute
+*/1 * * * * /home/student/databackup.sh
+
+# Run disk usage monitor every 2 minutes
+*/2 * * * * /home/student/diskMonitor.sh
+
+# Run network ping check every 1 minute
+*/1 * * * * /home/student/network_ping.sh

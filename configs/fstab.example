@@ -1,0 +1,14 @@
+# fstab.example
+# Persistent mount entries for RAID volumes on nma2881.storage
+# Add these lines to /etc/fstab (replace UUIDs with your actual UUIDs from: blkid)
+
+# RAID 1 partitions (md0) - NFS shares
+UUID=<your-nfs1-uuid>   /media/nfs1   xfs    defaults   0 0
+UUID=<your-nfs2-uuid>   /media/nfs2   xfs    defaults   0 0
+
+# RAID 5 partitions (md1) - Samba shares
+UUID=<your-samba1-uuid>  /media/samba1  ext3   defaults,data=ordered   0 0
+UUID=<your-samba2-uuid>  /media/samba2  ext2   defaults                0 0
+
+# NFS client persistent mount (add _netdev for network dependency)
+# <server-ip>:/media/nfs1/weezer  /mnt/weezer  nfs  defaults,_netdev  0 0

@@ -1,0 +1,12 @@
+# rsyncd.conf.example
+# RSYNC daemon configuration for nma2881.storage
+# Copy to /etc/rsyncd.conf and adjust as needed
+
+[ramones]
+    chroot = false
+    path = /media/rsync
+    comment = Ramones RSYNC Module
+    read only = yes
+    list = yes
+    uid = nobody
+    gid = nobody

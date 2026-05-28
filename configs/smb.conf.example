@@ -1,0 +1,17 @@
+# smb.conf.example
+# Samba configuration for nma2881.storage
+# Copy to /etc/samba/smb.conf and adjust as needed
+
+[global]
+   workgroup = WORKGROUP
+   server string = Samba Server
+   security = user
+   passdb backend = tdbsam
+
+[ramones]
+   path = /media/samba/ramones
+   browseable = yes
+   writable = yes
+   valid users = @writers
+   create mask = 0660
+   directory mask = 0770
